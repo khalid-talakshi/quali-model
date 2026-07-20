@@ -1,0 +1,11 @@
+[project]
+name = "qualifying-likelihood"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastf1>=3.8.3",
+    "numpy>=2.5.1",
+    "pandas>=2.3.3",
+]
