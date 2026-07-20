@@ -14,7 +14,7 @@ years = [i for i in range(2018, 2025)]
 df = None
 
 
-fastf1.Cache.enable_cache("./data/cache", use_requests_cache=True)
+fastf1.Cache.enable_cache("./src/data/cache", use_requests_cache=True)
 
 
 def download_quali_results(year: int, round: int, ergast=Ergast()):
