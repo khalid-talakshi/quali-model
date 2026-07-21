@@ -64,7 +64,3 @@ def download_quali_results_years(years: list):
         df = download_quali_results_year(year)
         res = pd.concat([res, df])
     return res
-
-
-res: pd.DataFrame = download_quali_results_years([i for i in range(2018, 2026)])
-res.to_csv("./data/quali-results.csv")
